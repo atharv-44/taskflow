@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Test scripts (optional — remove these lines if you want to keep them)
+server/test_step1.js
+server/test_step1.bat
+server/test_step2.js
+server/test_step3.js
+server/test_bad_login.json
+server/test_login.json
+server/test_register.json
+test_workspace.js
